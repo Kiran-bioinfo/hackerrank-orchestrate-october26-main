@@ -1,0 +1,138 @@
+=== case_03 ===
+request_text: Je demande la suppression définitive du compte associé à cette adresse e-mail. Veuillez examiner les identifiants actuel
+predicted: INCOMPLETE  expected: COMPLETE
+user_id: user_43  emails: ['l.fontaine46@yahoo.com']
+intent: True
+evidence records:
+  resource_id=legal_hold_438 system_id=legal_service category=LEGAL_HOLD_RECORD actual_state=RETAINED exposed_pii=True is_violation=False is_compliant=True evidence_id=evidence_40
+  resource_id=search_3844 system_id=search_service category=SEARCH_INDEX_ENTRY actual_state=ACTIVE exposed_pii=True is_violation=True is_compliant=False evidence_id=evidence_40
+  resource_id=audit_record_3548 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=RETAINED exposed_pii=True is_violation=False is_compliant=True evidence_id=evidence_40
+  resource_id=audit_record_1149 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=UNKNOWN exposed_pii=False is_violation=True is_compliant=False evidence_id=evidence_41
+  resource_id=audit_record_1366 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=UNKNOWN exposed_pii=False is_violation=True is_compliant=False evidence_id=evidence_41
+  resource_id=audit_record_2748 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=UNKNOWN exposed_pii=False is_violation=True is_compliant=False evidence_id=evidence_41
+  resource_id=audit_record_4043 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=UNKNOWN exposed_pii=False is_violation=True is_compliant=False evidence_id=evidence_41
+  resource_id=audit_record_5488 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=UNKNOWN exposed_pii=False is_violation=True is_compliant=False evidence_id=evidence_41
+  resource_id=audit_record_6665 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=UNKNOWN exposed_pii=False is_violation=True is_compliant=False evidence_id=evidence_41
+  resource_id=audit_record_6846 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=UNKNOWN exposed_pii=False is_violation=True is_compliant=False evidence_id=evidence_41
+  resource_id=audit_record_7313 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=UNKNOWN exposed_pii=False is_violation=True is_compliant=False evidence_id=evidence_41
+  resource_id=audit_record_9695 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=UNKNOWN exposed_pii=False is_violation=True is_compliant=False evidence_id=evidence_41
+  resource_id=account_7566 system_id=account_service category=USER_PROFILE actual_state=DELETED exposed_pii=False is_violation=False is_compliant=True evidence_id=evidence_94
+  resource_id=audit_record_2016 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=ACTIVE exposed_pii=True is_violation=False is_compliant=True evidence_id=evidence_94
+
+=== case_09 ===
+request_text: Please permanently delete the account associated with this email address. Please apply the correct treatment to records 
+predicted: COMPLETE  expected: INCOMPLETE
+user_id: user_61  emails: ['k.appiah88@gmail.com']
+intent: True
+evidence records:
+  resource_id=backup_4978 system_id=backup_service category=BACKUP_ARCHIVE actual_state=UNKNOWN exposed_pii=False is_violation=True is_compliant=False evidence_id=evidence_93
+
+=== case_21 ===
+request_text: I deleted my account and received the confirmation email. Could you verify that the profile is gone and that anything re
+predicted: INCOMPLETE  expected: COMPLETE
+user_id: user_21  emails: ['amara-okeke@proton.me']
+intent: True
+evidence records:
+  resource_id=audit_record_3261 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=RETAINED exposed_pii=True is_violation=False is_compliant=True evidence_id=evidence_20
+  resource_id=search_2274 system_id=search_service category=SEARCH_INDEX_ENTRY actual_state=ACTIVE exposed_pii=True is_violation=True is_compliant=False evidence_id=evidence_20
+  resource_id=support_1360 system_id=support_platform category=SUPPORT_MESSAGE actual_state=UNKNOWN exposed_pii=False is_violation=True is_compliant=False evidence_id=evidence_81
+  resource_id=data_flow_5279 system_id=integration_service category=SECONDARY_IDENTIFIER actual_state=UNKNOWN exposed_pii=False is_violation=True is_compliant=False evidence_id=evidence_81
+  resource_id=backup_5626 system_id=backup_service category=BACKUP_ARCHIVE actual_state=UNKNOWN exposed_pii=False is_violation=True is_compliant=False evidence_id=evidence_81
+  resource_id=audit_record_1718 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=UNKNOWN exposed_pii=False is_violation=True is_compliant=False evidence_id=evidence_81
+  resource_id=audit_record_3382 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=UNKNOWN exposed_pii=False is_violation=True is_compliant=False evidence_id=evidence_81
+  resource_id=audit_record_3880 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=UNKNOWN exposed_pii=False is_violation=True is_compliant=False evidence_id=evidence_81
+  resource_id=audit_record_4413 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=UNKNOWN exposed_pii=False is_violation=True is_compliant=False evidence_id=evidence_81
+  resource_id=audit_record_8792 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=UNKNOWN exposed_pii=False is_violation=True is_compliant=False evidence_id=evidence_81
+  resource_id= system_id=account_service category=USER_PROFILE actual_state=UNKNOWN exposed_pii=False is_violation=True is_compliant=False evidence_id=evidence_92
+
+=== case_25 ===
+request_text: The privacy page still says my request failed. Please inspect the actual systems and tell me whether the account and ide
+predicted: INCOMPLETE  expected: COMPLETE
+user_id: user_25  emails: ['s.yoon04@gmail.com']
+intent: True
+evidence records:
+  resource_id=audit_record_1421 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=RETAINED exposed_pii=True is_violation=False is_compliant=True evidence_id=evidence_24
+  resource_id=audit_record_1876 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=RETAINED exposed_pii=True is_violation=False is_compliant=True evidence_id=evidence_24
+  resource_id=audit_record_2453 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=RETAINED exposed_pii=True is_violation=False is_compliant=True evidence_id=evidence_24
+  resource_id=audit_record_2513 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=RETAINED exposed_pii=True is_violation=False is_compliant=True evidence_id=evidence_24
+  resource_id=audit_record_2927 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=RETAINED exposed_pii=True is_violation=False is_compliant=True evidence_id=evidence_24
+  resource_id=audit_record_3335 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=RETAINED exposed_pii=True is_violation=False is_compliant=True evidence_id=evidence_24
+  resource_id=audit_record_7193 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=RETAINED exposed_pii=True is_violation=False is_compliant=True evidence_id=evidence_24
+  resource_id=audit_record_9256 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=RETAINED exposed_pii=True is_violation=False is_compliant=True evidence_id=evidence_24
+  resource_id=audit_record_9890 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=RETAINED exposed_pii=True is_violation=False is_compliant=True evidence_id=evidence_24
+  resource_id=legal_hold_8017 system_id=legal_service category=LEGAL_HOLD_RECORD actual_state=RETAINED exposed_pii=True is_violation=False is_compliant=True evidence_id=evidence_24
+  resource_id=search_3011 system_id=search_service category=SEARCH_INDEX_ENTRY actual_state=ACTIVE exposed_pii=True is_violation=True is_compliant=False evidence_id=evidence_24
+  resource_id=search_4027 system_id=search_service category=SEARCH_INDEX_ENTRY actual_state=ACTIVE exposed_pii=True is_violation=True is_compliant=False evidence_id=evidence_24
+  resource_id=search_5296 system_id=search_service category=SEARCH_INDEX_ENTRY actual_state=ACTIVE exposed_pii=True is_violation=True is_compliant=False evidence_id=evidence_24
+  resource_id=search_6781 system_id=search_service category=SEARCH_INDEX_ENTRY actual_state=ACTIVE exposed_pii=True is_violation=True is_compliant=False evidence_id=evidence_24
+  resource_id=search_6990 system_id=search_service category=SEARCH_INDEX_ENTRY actual_state=ACTIVE exposed_pii=True is_violation=True is_compliant=False evidence_id=evidence_24
+  resource_id=support_3772 system_id=support_platform category=SUPPORT_MESSAGE actual_state=ACTIVE exposed_pii=True is_violation=True is_compliant=False evidence_id=evidence_24
+  resource_id=support_3834 system_id=support_platform category=SUPPORT_MESSAGE actual_state=ACTIVE exposed_pii=True is_violation=True is_compliant=False evidence_id=evidence_24
+  resource_id=account_3150 system_id=account_service category=USER_PROFILE actual_state=ACTIVE exposed_pii=True is_violation=True is_compliant=False evidence_id=evidence_24
+  resource_id=account_9608 system_id=account_service category=USER_PROFILE actual_state=ACTIVE exposed_pii=True is_violation=True is_compliant=False evidence_id=evidence_24
+  resource_id= system_id=account_service category=USER_PROFILE actual_state=UNKNOWN exposed_pii=False is_violation=True is_compliant=False evidence_id=evidence_92
+
+=== case_26 ===
+request_text: I found an old report saying my account still existed. Please check the latest state and confirm that the profile is gon
+predicted: INCOMPLETE  expected: COMPLETE
+user_id: user_26  emails: ['almeida.mariana@gmail.com']
+intent: True
+evidence records:
+  resource_id=audit_record_4812 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=RETAINED exposed_pii=True is_violation=False is_compliant=True evidence_id=evidence_24
+  resource_id=search_2228 system_id=search_service category=SEARCH_INDEX_ENTRY actual_state=ACTIVE exposed_pii=True is_violation=True is_compliant=False evidence_id=evidence_24
+  resource_id= system_id=account_service category=USER_PROFILE actual_state=UNKNOWN exposed_pii=False is_violation=True is_compliant=False evidence_id=evidence_25
+  resource_id= system_id=account_service category=USER_PROFILE actual_state=UNKNOWN exposed_pii=False is_violation=True is_compliant=False evidence_id=evidence_92
+
+=== case_27 ===
+request_text: Please audit the deletion as it stood when my request was reviewed. I want confirmation that the account was fully remov
+predicted: INCOMPLETE  expected: COMPLETE
+user_id: user_27  emails: ['ananya-nair@gmail.com']
+intent: True
+evidence records:
+  resource_id= system_id=account_service category=USER_PROFILE actual_state=UNKNOWN exposed_pii=False is_violation=True is_compliant=False evidence_id=evidence_25
+  resource_id=account_8689 system_id=account_service category=USER_PROFILE actual_state=ACTIVE exposed_pii=True is_violation=True is_compliant=False evidence_id=evidence_26
+  resource_id=analytics_5959 system_id=analytics_platform category=ANALYTICS_PROFILE actual_state=ACTIVE exposed_pii=True is_violation=True is_compliant=False evidence_id=evidence_26
+  resource_id=analytics_6265 system_id=analytics_platform category=ANALYTICS_PROFILE actual_state=ACTIVE exposed_pii=True is_violation=True is_compliant=False evidence_id=evidence_26
+  resource_id=backup_9728 system_id=backup_service category=BACKUP_ARCHIVE actual_state=RETAINED exposed_pii=True is_violation=False is_compliant=True evidence_id=evidence_26
+  resource_id=data_flow_2439 system_id=integration_service category=SECONDARY_IDENTIFIER actual_state=DISABLED exposed_pii=True is_violation=True is_compliant=False evidence_id=evidence_26
+  resource_id=search_5454 system_id=search_service category=SEARCH_INDEX_ENTRY actual_state=ACTIVE exposed_pii=True is_violation=True is_compliant=False evidence_id=evidence_26
+  resource_id=search_5264 system_id=search_service category=SEARCH_INDEX_ENTRY actual_state=ACTIVE exposed_pii=True is_violation=True is_compliant=False evidence_id=evidence_26
+  resource_id=search_8082 system_id=search_service category=SEARCH_INDEX_ENTRY actual_state=ACTIVE exposed_pii=True is_violation=True is_compliant=False evidence_id=evidence_26
+  resource_id=search_3364 system_id=search_service category=SEARCH_INDEX_ENTRY actual_state=ACTIVE exposed_pii=True is_violation=True is_compliant=False evidence_id=evidence_26
+  resource_id=audit_record_3428 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=RETAINED exposed_pii=True is_violation=False is_compliant=True evidence_id=evidence_26
+  resource_id=audit_record_6398 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=RETAINED exposed_pii=True is_violation=False is_compliant=True evidence_id=evidence_26
+  resource_id=audit_record_4188 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=RETAINED exposed_pii=True is_violation=False is_compliant=True evidence_id=evidence_26
+  resource_id=audit_record_8323 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=RETAINED exposed_pii=True is_violation=False is_compliant=True evidence_id=evidence_26
+  resource_id=audit_record_8228 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=RETAINED exposed_pii=True is_violation=False is_compliant=True evidence_id=evidence_26
+  resource_id=audit_record_6384 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=RETAINED exposed_pii=True is_violation=False is_compliant=True evidence_id=evidence_26
+  resource_id=audit_record_5055 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=RETAINED exposed_pii=True is_violation=False is_compliant=True evidence_id=evidence_26
+  resource_id=audit_record_1518 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=RETAINED exposed_pii=True is_violation=False is_compliant=True evidence_id=evidence_26
+  resource_id=audit_record_111 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=RETAINED exposed_pii=True is_violation=False is_compliant=True evidence_id=evidence_26
+  resource_id=support_2036 system_id=support_platform category=SUPPORT_MESSAGE actual_state=REDACTED exposed_pii=True is_violation=False is_compliant=True evidence_id=evidence_26
+  resource_id=support_6333 system_id=support_platform category=SUPPORT_MESSAGE actual_state=ACTIVE exposed_pii=True is_violation=True is_compliant=False evidence_id=evidence_26
+  resource_id=support_7073 system_id=support_platform category=SUPPORT_MESSAGE actual_state=ACTIVE exposed_pii=True is_violation=True is_compliant=False evidence_id=evidence_26
+  resource_id=support_2757 system_id=support_platform category=SUPPORT_MESSAGE actual_state=ACTIVE exposed_pii=True is_violation=True is_compliant=False evidence_id=evidence_26
+  resource_id=search_9526 system_id=search_service category=SEARCH_INDEX_ENTRY actual_state=ACTIVE exposed_pii=True is_violation=True is_compliant=False evidence_id=evidence_26
+  resource_id= system_id=account_service category=USER_PROFILE actual_state=UNKNOWN exposed_pii=False is_violation=True is_compliant=False evidence_id=evidence_77
+  resource_id= system_id=account_service category=USER_PROFILE actual_state=UNKNOWN exposed_pii=False is_violation=True is_compliant=False evidence_id=evidence_92
+
+=== case_28 ===
+request_text: Can you verify that my account was deleted? A search result with a similar email belongs to someone else, so please do n
+predicted: INCOMPLETE  expected: COMPLETE
+user_id: user_28  emails: ['smartinez6461@gmail.com']
+intent: True
+evidence records:
+  resource_id=audit_record_3198 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=RETAINED exposed_pii=True is_violation=False is_compliant=True evidence_id=evidence_26
+  resource_id=support_8370 system_id=support_platform category=SUPPORT_MESSAGE actual_state=ACTIVE exposed_pii=True is_violation=True is_compliant=False evidence_id=evidence_26
+  resource_id=audit_record_1714 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=ACTIVE exposed_pii=True is_violation=False is_compliant=True evidence_id=evidence_76
+  resource_id=audit_record_5680 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=ACTIVE exposed_pii=True is_violation=False is_compliant=True evidence_id=evidence_76
+  resource_id= system_id=account_service category=USER_PROFILE actual_state=UNKNOWN exposed_pii=False is_violation=True is_compliant=False evidence_id=evidence_92
+
+=== case_31 ===
+request_text: I no longer need this account. Please remove my name and contact details, but keeping an internal deleted-account refere
+predicted: INCOMPLETE  expected: COMPLETE
+user_id: user_541  emails: ['a.eze08@gmail.com']
+intent: True
+evidence records:
+  resource_id=tombstone_440 system_id=identity_service category=ACCOUNT_TOMBSTONE actual_state=DELETED exposed_pii=True is_violation=True is_compliant=False evidence_id=evidence_51
+  resource_id=audit_record_6909 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=RETAINED exposed_pii=True is_violation=False is_compliant=True evidence_id=evidence_51

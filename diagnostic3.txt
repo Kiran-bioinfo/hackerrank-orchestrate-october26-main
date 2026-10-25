@@ -1,0 +1,18 @@
+﻿Resource -> evidence file(s)
+backup_4978 -> C:\Users\MSI\Desktop\hackerrank-orchestrate-october26-main\dataset\evidence\databases\customer_data_inventory_20260916.sql
+backup_4978 -> C:\Users\MSI\Desktop\hackerrank-orchestrate-october26-main\dataset\evidence\logs\structured_service_events_eu_west_20260918.log
+support_002 -> C:\Users\MSI\Desktop\hackerrank-orchestrate-october26-main\dataset\evidence\logs\support_replica.log
+analytics_9914 -> C:\Users\MSI\Desktop\hackerrank-orchestrate-october26-main\dataset\evidence\logs\service_events_ap_south_20260915.log
+backup_3870 -> C:\Users\MSI\Desktop\hackerrank-orchestrate-october26-main\dataset\evidence\records\customer_account_handover_20261001.txt
+data_flow_9846 -> C:\Users\MSI\Desktop\hackerrank-orchestrate-october26-main\dataset\evidence\logs\service_events_ap_south_20260915.log
+search_6083 -> C:\Users\MSI\Desktop\hackerrank-orchestrate-october26-main\dataset\evidence\logs\service_events_ap_south_20260915.log
+support_9553 -> C:\Users\MSI\Desktop\hackerrank-orchestrate-october26-main\dataset\evidence\logs\service_events_ap_south_20260915.log
+
+System activity (LINK/related):
+activity_3329,2026-08-19T12:56:14Z,REDACT_RECORD,deletion_worker,support_platform,support_9553,FAILED,Deletion worker received the final result for support_9553 from support_platform.
+activity_3332,2026-08-19T13:15:43Z,DELETE_RECORD,deletion_worker,search_service,search_6083,FAILED,Deletion worker received the final result for search_6083 from search_service.
+activity_3386,2026-08-22T12:51:10Z,CHECK_DATA_FLOW,deletion_worker,integration_service,data_flow_9846,SUCCESS,Connector status check confirmed that data flow data_flow_9846 remains enabled.
+activity_3435,2026-08-25T12:53:51Z,DELETE_RECORD,deletion_worker,analytics_platform,analytics_9914,FAILED,Deletion worker received the final result for analytics_9914 from analytics_platform.
+activity_3596,2026-09-02T10:09:01Z,DELETE_RECORD,deletion_worker,support_platform,support_002,SUCCESS,Deletion worker reported the requested operation as completed. Target resource: support_002.
+activity_3690,2026-09-06T12:44:53Z,CHECK_RESTORE_ACCESS,deletion_worker,backup_service,backup_3870,SUCCESS,Restore-access check confirmed that archive backup_3870 can still be restored.
+activity_3709,2026-09-07T09:51:10Z,CHECK_RESTORE_ACCESS,deletion_worker,backup_service,backup_4978,SUCCESS,Restore-access check confirmed that archive backup_4978 can still be restored.

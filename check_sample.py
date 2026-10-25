@@ -1,0 +1,1 @@
+import csv\npred={r['case_id']:r for r in csv.DictReader(open('output.csv'))}\ngold={r['case_id']:r for r in csv.DictReader(open('dataset/sample_output.csv'))}\nacc=0\nfor c in gold:\n    if c in pred and pred[c]['deletion_status']==gold[c]['deletion_status']:\n        acc+=1\nprint(acc)\n

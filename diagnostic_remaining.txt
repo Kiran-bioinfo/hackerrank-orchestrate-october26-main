@@ -1,0 +1,51 @@
+=== case_09 ===
+request_text: Please permanently delete the account associated with this email address. Please apply the correct treatment to records covered by the request. Please confirm when the review is complete.
+predicted: COMPLETE  expected: INCOMPLETE
+classify_intent: True
+audit_at: 2026-09-16T09:00:00Z
+aliases: user_id=user_61 emails=['k.appiah88@gmail.com'] phones=['+233 24 468 1056']
+matched evidence:
+  resource_id=backup_4978 system_id=backup_service category=BACKUP_ARCHIVE actual_state=UNKNOWN exposed_pii=False is_violation=False is_compliant=True evidence_id=evidence_93 _captured_at=None
+
+=== case_10 ===
+request_text: I used this Yahoo address before changing the email on my account. Please remove records linked to both the old and current addresses.
+predicted: COMPLETE  expected: INCOMPLETE
+classify_intent: True
+audit_at: 2026-09-18T12:25:00Z
+aliases: user_id=user_10 emails=['n.petrescu@yahoo.com', 'nadia.ionescu@yahoo.com', 'nadia.petrescu@yahoo.com'] phones=['+40 723 481 638']
+matched evidence:
+
+=== case_12 ===
+request_text: I changed the email on this account before deleting it. Please check that nothing tied to the old address was left behind, even in systems that do not display the email.
+predicted: COMPLETE  expected: INCOMPLETE
+classify_intent: True
+audit_at: 2026-09-15T12:00:00Z
+aliases: user_id=user_12 emails=['minjun.kim90@gmail.com', 'minjun.kim@gmail.com'] phones=['+82 10 2466 4678']
+matched evidence:
+
+=== case_14 ===
+request_text: このメールアドレスに関連するアカウントの完全な削除を依頼します。 プライバシー手続きに従い、現在および過去の識別情報を確認してください。 確認が完了したら結果をお知らせください。
+predicted: COMPLETE  expected: INCOMPLETE
+classify_intent: True
+audit_at: 2026-10-01T12:00:00Z
+aliases: user_id=user_37 emails=['y.tanaka32@gmail.com'] phones=['+81 90 0802 6399']
+matched evidence:
+  resource_id=account_3677 system_id=account_service category=USER_PROFILE actual_state=DELETED exposed_pii=False is_violation=False is_compliant=True evidence_id=evidence_03 _captured_at=None
+  resource_id=backup_3870 system_id=backup_service category=BACKUP_ARCHIVE actual_state=ACTIVE exposed_pii=False is_violation=False is_compliant=True evidence_id=evidence_03 _captured_at=None
+  resource_id=audit_record_987 system_id=security_service category=SECURITY_AUDIT_LOG actual_state=ACTIVE exposed_pii=True is_violation=False is_compliant=True evidence_id=evidence_03 _captured_at=None
+
+=== case_15 ===
+request_text: I disconnected my account last week, but one of the integrations still seems active. Close the account completely and make sure it can no longer send my data to other systems.
+predicted: COMPLETE  expected: INCOMPLETE
+classify_intent: True
+audit_at: 2026-09-15T12:00:00Z
+aliases: user_id=user_15 emails=['lucia-torres@gmail.com'] phones=['+34 715 351 235', '+34 728 875 900']
+matched evidence:
+
+=== case_19 ===
+request_text: Please remove my profile and clean my personal details out of earlier support conversations. Some of those messages also relate to another customer, so the conversation itself may need to stay.
+predicted: COMPLETE  expected: INCOMPLETE
+classify_intent: True
+audit_at: 2026-09-15T12:00:00Z
+aliases: user_id=user_19 emails=['e.varga90@yahoo.com'] phones=['+48 625 215 867']
+matched evidence:

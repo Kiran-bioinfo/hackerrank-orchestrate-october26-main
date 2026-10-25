@@ -1,0 +1,20 @@
+# Dataset and generated artifacts
+dataset/
+output.csv
+sample_output_pred.csv
+code.zip
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Logs (optional, keep if you want chat transcript)
+# log.txt
+
+# OS
+.DS_Store
+Thumbs.db
